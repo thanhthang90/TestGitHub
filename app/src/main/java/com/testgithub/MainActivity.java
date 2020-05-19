@@ -20,5 +20,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), SecondActivity.class));
             }
         });
+        initData();
+    }
+
+    private void initData() {
     }
 }
