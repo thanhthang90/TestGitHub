@@ -7,8 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.testgithub.service.LoginService;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,7 +20,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), SecondActivity.class));
             }
         });
-
-        LoginService.start(getApplicationContext());
     }
 }
